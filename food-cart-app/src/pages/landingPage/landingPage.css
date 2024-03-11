@@ -1,0 +1,31 @@
+.grid_container {
+    width: 80%;
+    margin: auto;
+}
+
+.card_item_list {
+    height: 85vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    padding: 0.4rem 1rem;
+}
+
+.cart_box {
+    width: 60.5%;
+    margin-left: 15px;
+
+    @media screen and (max-width:800px) {
+        width: 91%;
+        margin-left: 22px;
+    };
+
+    @media screen and (max-width:600px) {
+        width: 93%;
+        margin-left: 16px;
+    }
+
+    @media screen and (max-width:400px) {
+        width: 90%;
+        margin-left: 16px;
+    }
+}
